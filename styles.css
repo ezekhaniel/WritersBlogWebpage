@@ -1,0 +1,114 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: #91cfd5;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    font-size: 18px;
+}
+
+/* Top Section Styles - Left & Right Columns */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #e4f7fa;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.newest-featured-post {
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.different-topics {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.different-topics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.different-topics ul li {
+    margin-bottom: 10px;
+}
+
+/* Container for Featured Articles and Writers */
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.container .left-column,
+.container .right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.featured-article,
+.featured-writers {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background: #91cfd5;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

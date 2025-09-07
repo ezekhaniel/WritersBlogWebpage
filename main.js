@@ -1,3 +1,4 @@
+//main.js
 document.addEventListener("DOMContentLoaded", function() {
     const posts = [
         { title: "Post Title 1", summary: "Summary of post 1..." },

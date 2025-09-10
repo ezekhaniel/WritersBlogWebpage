@@ -16,9 +16,25 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
+    gap: 10px;
+    position: relative;
+    min-height: 100px;
+}
+
+.navbar-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-logo {
+    max-width: 100px;
+    height: auto;
 }
 
 .navbar a {
@@ -35,7 +51,19 @@ header {
 }
 
 .navbar nav ul li {
-    font-size: 18px;
+    font-size: 22px;
+}
+
+/* Logo Container Styles */
+.logo-container {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #91cfd5;
+}
+
+.logo-container img {
+    max-width: 120px;
+    height: auto;
 }
 
 /* Top Section Styles - Left & Right Columns */

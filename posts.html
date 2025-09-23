@@ -36,5 +36,13 @@
     <footer>
         <p>&copy; 2025 Counterculture for Christ. All rights reserved.</p>
     </footer>
+    <script>
+        // Render all posts into .posts-list once the page is loaded and posts.js has run
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.renderAllPosts) {
+                window.renderAllPosts('.posts-list');
+            }
+        });
+    </script>
 </body>
 </html>

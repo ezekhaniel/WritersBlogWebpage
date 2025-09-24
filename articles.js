@@ -166,8 +166,8 @@ window.renderAllarticles = function(selector) {
     const container = document.querySelector(selector);
     if (!container) return;
     articles.forEach(article => {
-        const article = document.createElement('article');
-        article.innerHTML = `<h3>${article.title}</h3>` + article.summary;
-        container.appendChild(article);
+        const el = document.createElement('article');
+        el.innerHTML = `<h3>${article.title}</h3>` + article.summary;
+        container.appendChild(el);
     });
 };

@@ -1,8 +1,8 @@
-// posts.js
-// Expose a small posts dataset and rendering helpers so pages (like index.html)
+// articles.js
+// Expose a small articles dataset and rendering helpers so pages (like index.html)
 // can pull content dynamically.
 
-const posts = [
+const articles = [
     {
         title: "Writing Process Overview!",
         summary: `
@@ -43,7 +43,7 @@ Preparation is basically just a lot of outlining, Character outlines, Overall st
 Don’t. 
 It looks like a lot, it sounds like a lot, some of it may even be a lot, especially if you’re a perfectionist like me, but it also can be really simple, many of these outlines don’t even take that long, maybe fifteen minutes, and a few of them, depending on your story, aren’t even necessary, actually, technically none of them are necessary but for us people who have forgetful brains and need something to help us keep track of our billions of ideas, outlining is one of the most helpful things in the whole history of writing. 
 Don’t stress about it! 
-When I do another post, going into more detail about preparation, I’ll hopefully have some free, downloadable outline sheets that I use regularly in my own writing to help you along a bit!
+When I do another article, going into more detail about preparation, I’ll hopefully have some free, downloadable outline sheets that I use regularly in my own writing to help you along a bit!
 </p>
 <h4>Drafting</h4>
 <p>
@@ -121,11 +121,11 @@ Thanks for reading!
 -Megan 🖊️ 🎶 💣😇
 `
     },
-    { title: "Post Title 2", summary: "Summary of post 2..." }
+    { title: "article Title 2", summary: "Summary of article 2..." }
 ];
 
-// expose posts so pages can access them
-window.posts = posts;
+// expose articles so pages can access them
+window.articles = articles;
 
 function _extractFirstParagraph(html) {
     const tmp = document.createElement('div');
@@ -134,40 +134,40 @@ function _extractFirstParagraph(html) {
     return p ? p.innerHTML : tmp.textContent || '';
 }
 
-// Render the first `count` posts into the element matched by selector.
+// Render the first `count` articles into the element matched by selector.
 window.renderLatest = function(selector, count = 1) {
     const container = document.querySelector(selector);
     if (!container) {
-        console.warn('posts.js: target selector not found:', selector);
+        console.warn('articles.js: target selector not found:', selector);
         return;
     }
     container.innerHTML = '';
     const heading = document.createElement('h1');
-    heading.textContent = 'Latest posts';
+    heading.textContent = 'Latest articles';
     container.appendChild(heading);
 
-    for (let i = 0; i < Math.min(count, posts.length); i++) {
-        const post = posts[i];
+    for (let i = 0; i < Math.min(count, articles.length); i++) {
+        const article = articles[i];
         const h3 = document.createElement('h3');
-        h3.textContent = post.title;
+        h3.textContent = article.title;
         const p = document.createElement('p');
-        p.innerHTML = _extractFirstParagraph(post.summary);
+        p.innerHTML = _extractFirstParagraph(article.summary);
         container.appendChild(h3);
         container.appendChild(p);
     }
-    // append a "Read more" link that leads to the full posts page
+    // append a "Read more" link that leads to the full articles page
     const moreWrap = document.createElement('p');
-    moreWrap.innerHTML = '<a href="posts.html">Read more &raquo;</a>';
+    moreWrap.innerHTML = '<a href="articles.html">Read more &raquo;</a>';
     container.appendChild(moreWrap);
 };
 
-// Render all posts into a container (useful for posts.html)
-window.renderAllPosts = function(selector) {
+// Render all articles into a container (useful for articles.html)
+window.renderAllarticles = function(selector) {
     const container = document.querySelector(selector);
     if (!container) return;
-    posts.forEach(post => {
+    articles.forEach(article => {
         const article = document.createElement('article');
-        article.innerHTML = `<h3>${post.title}</h3>` + post.summary;
+        article.innerHTML = `<h3>${article.title}</h3>` + article.summary;
         container.appendChild(article);
     });
 };

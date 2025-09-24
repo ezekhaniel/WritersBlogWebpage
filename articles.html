@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts - Counterculture for Christ</title>
+    <title>articles - Counterculture for Christ</title>
     <link rel="icon" href="logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    <script src="posts.js" defer></script>
+    <script src="articles.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -18,8 +18,8 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="posts.html">Posts</a></li>
-                        <li><a href="subscribe.html">Subscribe</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="subscribe.html">Subscribe&nbsp;&nbsp;</a></li>
                     </ul>
                 </nav>
                 <img src="logo.png" alt="Logo" class="navbar-logo">
@@ -27,9 +27,9 @@
     </header>
 
     <main>
-        <h1>Blog Posts</h1>
-        <p>Welcome to the blog posts section. Here you can find all the latest articles and stories from our writers.</p>
-        <section class="posts-list">
+        <h1>Blog articles</h1>
+        <p>Welcome to the blog articles section. Here you can find all the latest articles and stories from our writers.</p>
+        <section class="articles-list">
         </section>
     </main>
 
@@ -37,10 +37,10 @@
         <p>&copy; 2025 Counterculture for Christ. All rights reserved.</p>
     </footer>
     <script>
-        // Render all posts into .posts-list once the page is loaded and posts.js has run
+        // Render all articles into .articles-list once the page is loaded and articles.js has run
         document.addEventListener('DOMContentLoaded', function() {
-            if (window.renderAllPosts) {
-                window.renderAllPosts('.posts-list');
+            if (window.renderAllarticles) {
+                window.renderAllarticles('.articles-list');
             }
         });
     </script>

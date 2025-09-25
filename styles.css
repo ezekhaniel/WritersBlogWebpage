@@ -190,3 +190,7 @@ footer {
 .featured-writers a:focus {
     text-decoration: underline;
 }
+
+.featured-writers h1 {
+    margin-bottom: 30px;
+}

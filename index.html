@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="navbar">
-            <a class="navbar-brand" href="index.html">Counterculture for Christ<img src="logo.png" alt="Logo" class="navbar-logo"></a>
+            <a class="navbar-brand" href="index.html">&nbsp;Counterculture for Christ<img src="logo.png" alt="Logo" class="navbar-logo"></a>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -24,7 +24,7 @@
         </div>
     </header>
     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to Counterculture for Christ!</h1>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We aim to provide you with inspiring articles about writing.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscribe to get regular updates and notifications!</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We aim to provide you with inspiring articles about writing.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subscribe to get regular updates and notifications!</p>
     <div class="container">
         <div class="left-column">
             <div class="featured-article">
@@ -51,7 +51,7 @@
         <div class="right-column">
             <div class="featured-writers">
                 <a href ="articles.html">Are you writing wrong?</a>
-                <a href ="articles.html">Writing Process overview!</a>
+                <a href="articles.html#writing-process-overview">Writing Process overview!</a>
             </div>
         </div>
     </div>
@@ -71,8 +71,13 @@
 
                     const links = document.querySelectorAll('.featured-writers a');
                     if (links.length >= 2) {
+                        function generateSlug(title) {
+                            return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+                        }
                         links[0].textContent = window.articles[0].title;
+                        links[0].href = 'articles.html#' + generateSlug(window.articles[0].title);
                         links[1].textContent = window.articles[1].title;
+                        links[1].href = 'articles.html#' + generateSlug(window.articles[1].title);
                     }
                 }
             });

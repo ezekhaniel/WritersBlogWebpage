@@ -144,13 +144,14 @@ window.renderAllarticles = function(selector) {
     const container = document.querySelector(selector);
     if (!container) return;
     container.innerHTML = '';
-    
+
     const heading = document.createElement('h1');
     heading.textContent = 'Blog Articles:';
     container.appendChild(heading);
-    
+
     articles.forEach(item => {
         const el = document.createElement('article');
+        el.id = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
         el.innerHTML = `<h3>${item.title}</h3>` + _toHtmlSummary(item.summary);
         container.appendChild(el);
     });

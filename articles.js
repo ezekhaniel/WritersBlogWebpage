@@ -11,61 +11,8 @@
 const articles = [
     {
         title: 'Are you writing wrong?',
-        summary: `<p><em><b>By Emma Dooley</b></em></p><p>I always heard that people write in specific ways.
-        You plot or you pants. 
-        Plotting being planning your story out. 
-        Step by step. 
-        Chapter by chapter. 
-        Pantsing following the saying of 'fly by the seat of your pants' or letting the story lead you from the beginning to the end with guideline to follow.
-        For years I didn't hear of anything in between. 
-        But I didn’t do either of those. 
-        I found studying different writing techniques to be wildly fascinating and yet, incredibly frustrating. 
-        It left me feeling like I wasn’t good enough. 
-        Like every word I wrote was a waste of my time and the time of anyone who ever tried reading it. 
-        I thought I could never be a ‘real writer’ if I didn’t start following the rules. 
-        I tried. 
-        I failed. 
-        I kept trying and kept failing. 
-        There was starting to be a part of me that wanted to give up. 
-        I truly didn’t believe I could ever do it. 
-        Somedays, the only thing that got me to put my pen to the page was that I knew God called me to write for a reason. 
-        His reason was never to make me feel like an outcast in the writing world.
-        I let go of trying to fit into the categories of plotter and pantser and I just wrote my way. 
-        But I still wanted to know what “my way” was. 
-        So, while I accepted that my way may be just that, I never stopped looking at the writing styles of others.
-        Learning to let go of my need to follow a certain standard, one I had put on myself, wasn’t easy. 
-        But it was worth it. 
-        It gave me the freedom to explore writing styles without constant pressure. 
-        It let me learn from everyone instead of just the ones who write like me.
-        It wasn’t until a couple years ago that I heard about “writing from the end”. 
-        I thought maybe that was the category I fell in. As I looked more into writing from the end, I found that it was very much how it sounds. 
-        You write the end of your book, and then the climax, and slowly work your way to the start. 
-        And that certainly wasn’t my style.
-        But it made me realize what my style is. 
-        I like to call it inside out writing or puzzle writing.
-        I write scenes. 
-        Maybe I write the climax, then jump to the beginning. 
-        I move to the end, then come to the middle.
-        It's not pure chaos in one document or scrambled up chicken scratch in some notebook. 
-        I keep it organized. 
-        Each scene gets its own labeled document or a fresh page in a notebook with a colorful label across the top.
-        Does it feel a little crazy? 
-        Yes. 
-        Is it out of control? 
-        Maybe. 
-        But do I enjoy it? 
-        Absolutely. 
-        When I have enough scenes written out, I get to sort them all out. 
-        Like putting together puzzle pieces. 
-        Is this your writing style? 
-        Probably not. But my goal isn't to find your style, but to tell you you’re not alone. 
-        Writing isn’t black and white. 
-        It's not one way or another. 
-        Writing is whatever you make it. 
-        It doesn’t matter what your style is, you aren’t writing wrong. 
-        You’re just writing in the way that works for you.
-        Don’t try to fit in someone else’s box when yours is perfect for you. 
-        Enjoy the process.</p>`
+        summary: `<p><em><b>By Emma Dooley</b></em></p><p>I always heard that people write in specific ways. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You plot or you pants. Plotting being planning your story out. Step by step. Chapter by chapter. Pantsing following the saying of 'fly by the seat of your pants' or letting the story lead you from the beginning to the end with guideline to follow. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For years I didn't hear of anything in between. But I didn’t do either of those. I found studying different writing techniques to be wildly fascinating and yet, incredibly frustrating. It left me feeling like I wasn’t good enough. Like every word I wrote was a waste of my time and the time of anyone who ever tried reading it. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I thought I could never be a ‘real writer’ if I didn’t start following the rules. I tried. I failed. I kept trying and kept failing. There was starting to be a part of me that wanted to give up. 
+        I truly didn’t believe I could ever do it. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Somedays, the only thing that got me to put my pen to the page was that I knew God called me to write for a reason. His reason was never to make me feel like an outcast in the writing world. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I let go of trying to fit into the categories of plotter and pantser and I just wrote my way. But I still wanted to know what “my way” was. So, while I accepted that my way may be just that, I never stopped looking at the writing styles of others. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning to let go of my need to follow a certain standard, one I had put on myself, wasn’t easy. But it was worth it. It gave me the freedom to explore writing styles without constant pressure. It let me learn from everyone instead of just the ones who write like me. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It wasn’t until a couple years ago that I heard about “writing from the end”. I thought maybe that was the category I fell in. As I looked more into writing from the end, I found that it was very much how it sounds. You write the end of your book, and then the climax, and slowly work your way to the start. And that certainly wasn’t my style. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But it made me realize what my style is. I like to call it inside out writing or puzzle writing. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I write scenes. Maybe I write the climax, then jump to the beginning. I move to the end, then come to the middle. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's not pure chaos in one document or scrambled up chicken scratch in some notebook. I keep it organized. Each scene gets its own labeled document or a fresh page in a notebook with a colorful label across the top. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Does it feel a little crazy? Yes. Is it out of control? Maybe. But do I enjoy it? Absolutely. When I have enough scenes written out, I get to sort them all out. Like putting together puzzle pieces. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Is this your writing style? Probably not. But my goal isn't to find your style, but to tell you you’re not alone. Writing isn’t black and white. It's not one way or another. Writing is whatever you make it. It doesn’t matter what your style is, you aren’t writing wrong. You’re just writing in the way that works for you. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don’t try to fit in someone else’s box when yours is perfect for you. Enjoy the process.</p>`
     },
     {
         title: 'Writing Process Overview!',

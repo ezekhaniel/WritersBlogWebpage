@@ -51,22 +51,6 @@
 
         <div class="right-column">
             <div class="featured-writers">
-                <h2>Latest Article:</h2>
-                <h3>Writing Process Overview!</h3>
-                <p>Many times during my first two years of seriously writing I felt lost, utterly confused and completely idiotic whenever I sat down with my notebook and pen to start writing. 
-                    I struggled to wrap my mind around forming workable plots, crafting good, relatable characters and even just the writing itself, like, my first partial draft (which I still have😖as a reminder of what NOT to do) was written half in first person and half in third person…don’t even ask how that happened. 
-                    I have no answer for you other than I’ve learned a lot since then. But whenever I sat down to work on my writing I ended up stopping after just a few minutes in, fully stressed out just from thinking about how much I still had left and feeling ridiculous for the only three or four hundred words I was able to hand write every day. 
-                    On top of that fact, my parents and family didn’t know I’d started writing and I never was able to take the time to research and learn how to properly write. 
-                    I never thought about it at the time but a major part of my problem, aside from the obvious lack of narrative skill, my lack of writing skill and access to writing resources in general, and my families exclusion from my attempts, was that I had no outline or guide to help me keep track of everything I created and to help me realize that completing a chapter with a clear end goal in mind was actually getting me somewhere. 
-                    Thinking about how much I had to do was…quite frankly, overwhelming. 
-                    Like, there’s so much that goes into a story, how do you know where to even start?? 
-                    Obviously I did not have any clue where to start as it took another year and a half before I finally managed to determine the difference between narratives and actually finish a full length novel draft and then publish it.🫣 
-                    So, that is what I’m going to be providing here, an outline to help you do better at writing then I did when I first started. 
-                    There is a lot to cover so for now I’ll just do a brief overview, then over the next few weeks I’ll go over each piece in depth. 
-                    I hope you’re able to gather something from this, whether it just be encouragement that no matter how young you are it is possible to do great things. 
-                    Philippians 4:13 “I can do all things through Christ who strengthens me.” 
-                    Happy reading!
-                </p>
                 <a href="articles.html">Read more &raquo;</a>
             </div>
         </div>
@@ -75,16 +59,37 @@
     <p>&copy; 2025 Counterculture for Christ. All rights reserved.</p>
 </footer>
         <script src="articles.js"></script>
-        <!--
         <script>
-            // populate the homepage featured writers area with the latest article
+            // Helper function to extract the first paragraph (copied from articles.js)
+            function _extractFirstParagraph(html) {
+                const tmp = document.createElement('div');
+                tmp.innerHTML = html.trim();
+                const p = tmp.querySelector('p');
+                return p ? p.innerHTML : tmp.textContent || '';
+            }
+
+            // populate the homepage featured writers area with only the first paragraph of the latest article
             document.addEventListener('DOMContentLoaded', function() {
-                // render the first paragraph of the latest article into the featured-writers div
-                if (window.renderLatest) {
-                    window.renderLatest('.featured-writers', 1);
+                const container = document.querySelector('.featured-writers');
+                if (container && window.articles && window.articles.length > 0) {
+                    container.innerHTML = '';
+                    
+                    // Extract the first paragraph from the first article's summary
+                    const firstArticle = window.articles[0];
+                    const firstParagraph = _extractFirstParagraph(firstArticle.summary);
+                    
+                    if (firstParagraph) {
+                        const p = document.createElement('p');
+                        p.innerHTML = firstParagraph;
+                        container.appendChild(p);
+                    }
+                    
+                    // Add the Read more link
+                    const moreLink = document.createElement('p');
+                    moreLink.innerHTML = '<a href="articles.html">Read more &raquo;</a>';
+                    container.appendChild(moreLink);
                 }
             });
         </script>
-        -->
     </body>
     </html>

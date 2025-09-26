@@ -198,3 +198,14 @@ footer {
 .featured-writers h2 {
     margin-bottom: 40px;
 }
+
+.articles-list article {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+main {
+    padding: 20px;
+}

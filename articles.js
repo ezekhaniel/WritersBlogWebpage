@@ -121,7 +121,7 @@ window.renderLatest = function(selector, count = 1) {
     if (!container) return;
     container.innerHTML = '';
     const heading = document.createElement('h1');
-    heading.textContent = 'Latest Articles:';
+    heading.textContent = 'Blog Articles:';
     container.appendChild(heading);
 
     for (let i = 0; i < Math.min(count, articles.length); i++) {
@@ -146,7 +146,7 @@ window.renderAllarticles = function(selector) {
     container.innerHTML = '';
     
     const heading = document.createElement('h1');
-    heading.textContent = 'Latest Articles:';
+    heading.textContent = 'Blog Articles:';
     container.appendChild(heading);
     
     articles.forEach(item => {

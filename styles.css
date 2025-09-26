@@ -126,7 +126,7 @@ header {
 .featured-article,
 .featured-writers {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 25px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
@@ -182,9 +182,11 @@ footer {
 .featured-writers a {
     color: #0d6efd; /* bootstrap primary blue for visibility */
     text-decoration: none;
-    display: inline-block;
-    margin-top: 12px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 600;
+    font-size: 18px;
 }
 .featured-writers a:hover,
 .featured-writers a:focus {

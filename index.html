@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="navbar">
-            <a class="navbar-brand" href="index.html">Counterculture for Christ</a>
+            <a class="navbar-brand" href="index.html">Counterculture for Christ&nbsp;&nbsp;<img src="logo.png" alt="Logo" class="navbar-logo"></a>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -21,7 +21,6 @@
                     <li><a href="subscribe.html">Subscribe&nbsp;&nbsp;</a></li>
                 </ul>
             </nav>
-            <img src="logo.png" alt="Logo" class="navbar-logo">
         </div>
     </header>
 
@@ -51,7 +50,8 @@
 
         <div class="right-column">
             <div class="featured-writers">
-                <a href="articles.html">Read more &raquo;</a>
+                <a href ="articles.html">Are you writing wrong?</a>
+                <a href ="articles.html">Writing Process overview!</a>
             </div>
         </div>
     </div>
@@ -60,37 +60,20 @@
 </footer>
         <script src="articles.js"></script>
         <script>
-            // Helper function to extract the first paragraph (copied from articles.js)
-            function _extractFirstParagraph(html) {
-                const tmp = document.createElement('div');
-                tmp.innerHTML = html.trim();
-                const p = tmp.querySelector('p');
-                return p ? p.innerHTML : tmp.textContent || '';
-            }
-
-            // Custom render for the second article on homepage
             document.addEventListener('DOMContentLoaded', function() {
                 const container = document.querySelector('.featured-writers');
-                if (container && window.articles && window.articles.length > 1) {
-                    container.innerHTML = '';
-
-                    const heading = document.createElement('h1');
+                if (container && window.articles && window.articles.length >= 2) {
+                    // Clear existing content if needed, but since it's just links, we'll prepend
+                    const heading = document.createElement('h3');
                     heading.textContent = 'Latest Articles:';
-                    container.appendChild(heading);
+                    heading.style.marginBottom = '15px';
+                    container.insertBefore(heading, container.firstChild);
 
-                    // Render the second article (index 1)
-                    const secondArticle = window.articles[1];
-                    const h3 = document.createElement('h3');
-                    h3.textContent = secondArticle.title;
-                    const p = document.createElement('p');
-                    p.innerHTML = _extractFirstParagraph(secondArticle.summary);
-                    container.appendChild(h3);
-                    container.appendChild(p);
-
-                    // Add the Read more link
-                    const moreWrap = document.createElement('p');
-                    moreWrap.innerHTML = '<a href="articles.html">Read more &raquo;</a>';
-                    container.appendChild(moreWrap);
+                    const links = document.querySelectorAll('.featured-writers a');
+                    if (links.length >= 2) {
+                        links[0].textContent = window.articles[0].title;
+                        links[1].textContent = window.articles[1].title;
+                    }
                 }
             });
         </script>

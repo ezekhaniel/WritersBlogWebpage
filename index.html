@@ -50,8 +50,6 @@
 
         <div class="right-column">
             <div class="featured-writers">
-                <a href ="articles.html">Are you writing wrong?</a>
-                <a href="articles.html#writing-process-overview">Writing Process overview!</a>
             </div>
         </div>
     </div>
@@ -62,23 +60,29 @@
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const container = document.querySelector('.featured-writers');
-                if (container && window.articles && window.articles.length >= 2) {
-                    // Clear existing content if needed, but since it's just links, we'll prepend
+                if (container && window.articles && window.articles.length > 0) {
+                    // Clear existing content
+                    container.innerHTML = '';
+
+                    // Add heading
                     const heading = document.createElement('h3');
                     heading.textContent = 'Latest Articles:';
                     heading.style.marginBottom = '15px';
-                    container.insertBefore(heading, container.firstChild);
+                    container.appendChild(heading);
 
-                    const links = document.querySelectorAll('.featured-writers a');
-                    if (links.length >= 2) {
-                        function generateSlug(title) {
-                            return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
-                        }
-                        links[0].textContent = window.articles[0].title;
-                        links[0].href = 'articles.html#' + generateSlug(window.articles[0].title);
-                        links[1].textContent = window.articles[1].title;
-                        links[1].href = 'articles.html#' + generateSlug(window.articles[1].title);
+                    // Function to generate slug
+                    function generateSlug(title) {
+                        return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
                     }
+
+                    // Generate links for all articles
+                    window.articles.forEach(article => {
+                        const link = document.createElement('a');
+                        link.href = 'articles.html#' + generateSlug(article.title);
+                        link.textContent = article.title;
+                        container.appendChild(link);
+                        container.appendChild(document.createElement('br')); // Add line break for separation
+                    });
                 }
             });
         </script>

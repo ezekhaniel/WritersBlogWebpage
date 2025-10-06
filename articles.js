@@ -3,6 +3,20 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: 'Loving Your Bad Writing',
+        summary: `<p><em><b>By Justin Everling</b></em></p><p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Almost every author in the world struggles with feelings of self-doubt, including myself. There’s some days where we feel that our writing is amazing. And then there’s those days where we think it’s terrible, that we should just give up.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sometimes we write poorly—and that’s okay, because what matters is getting those words out. They might not be what you envisioned, and they might be an awful mess that needs a bunch of work, but you can love them anyway. Instead of dwelling on how clunky your writing sounds, imagine how it will be when you revise it. Think about how you could make it better. How you could improve it. Don’t go comparing yourself to other writers and feeling that your work will never be as good as theirs, because it is entirely possible that your greatest expectations will be surpassed.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Writing is a long process. More often than not, we need to just get those words on the computer screen, page, or any other outlet. And it isn’t unusual for your words to come out wrong. It’s easy to get annoyed at yourself. You don’t need to love your bad writing, just the vision of what it can become. Think of how you plan to fix and rewrite it. Revel in the future your story could have when it lands on a bookstore shelf. Remember: if your writing is bad now, it can be great later.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another thing I’ve noticed is that sometimes, when you are really struggling on a scene or particular word phrasing, you may feel that your writing is terrible. But then, when you go back and read it the next day, you find that it wasn’t quite as bad as you thought it was.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The temptation when you are struggling with bad writing is to just quit. Pause for a day. But it is far better to simply keep on persevering. And you might be surprised with the outcome. Even if the first draft ends up far less than your desire for it, you can still rewrite. Remember—you don’t have to love bad writing itself. But you can love it if you think of the end product.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most importantly, never give up. It’s all too easy to get so annoyed at your bad writing that you want to delete it all, or stop writing altogether. Keep on pouring those words out of your heart. They may be awkward or downright ridiculous, but you are writing, and there will be plenty of time for improvement later.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When you are struggling with doubt, hating what you write, remember this: God Himself has put a story in your heart, a small light in the darkness, an idea that can change the world. And no one else in the entire universe can write it the way it should be written—except you.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keep on loving your bad writing, because you have a job to do. A mission to accomplish.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A story to tell.
+        </p>`
+    },
+    {
         title: 'Virtue',
         summary: `<p><em><b>By Jadon Smith</b></em></p><p>Virtue. Such a beautiful word, no? The world has neglected the priority of pursuing virtues, and thus few people realize how vastly they affect everyday life. Your everyday life. This article was inspired by another article by my fellow Counterculture for Christ writer, Megan Kissling. In it, she mentioned how patience is a virtue needed in writing. I have reflected on virtues for hours, but never before had I thought of them in the context of writing. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“But why not?” I thought, “Why not explore how virtues apply to writing?” And thus inspiration struck–the reason I write to you, now. I wish to impart my introspections on a virtue fundamental to writing beautifully, so that you may shine bright for Christ.
             <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our virtue of discussion is known as epistemological humility (or intellectual humility). An intimidating term, for sure, but allow me to break it down. Epistemology is the study of how we, as humans, gain knowledge and discover Truth. The best way to describe humility is the opposite of pride, which believes it is the center of the world, thinks it has everything figured out, and lives as if it is more important than others.  Therefore, epistemological humility is the attitude of, “Okay,  I do not know everything, and because I do not know everything, I am willing to learn and consider perspectives I do not like.” It is being open-minded in growing your view of the world. 
@@ -63,37 +77,7 @@ function _toHtmlSummary(html) {
     return parts.map(p => `<p>${escapeHtml(p).replace(/\n/g, '<br>')}</p>`).join('\n');
 }
 
-// Extract the first paragraph (as HTML) from a summary.
-function _extractFirstParagraph(html) {
-    const tmp = document.createElement('div');
-    tmp.innerHTML = _toHtmlSummary(html);
-    const p = tmp.querySelector('p');
-    return p ? p.innerHTML : tmp.textContent || '';
-}
 
-// Render the first `count` articles into the element matched by selector.
-window.renderLatest = function(selector, count = 1) {
-    const container = document.querySelector(selector);
-    if (!container) return;
-    container.innerHTML = '';
-    const heading = document.createElement('h1');
-    heading.textContent = 'Blog Articles:';
-    container.appendChild(heading);
-
-    for (let i = 0; i < Math.min(count, articles.length); i++) {
-        const article = articles[i];
-        const h3 = document.createElement('h3');
-        h3.textContent = article.title;
-        const p = document.createElement('p');
-        p.innerHTML = _extractFirstParagraph(article.summary);
-        container.appendChild(h3);
-        container.appendChild(p);
-    }
-
-    const moreWrap = document.createElement('p');
-    moreWrap.innerHTML = '<a href="articles.html">Read more &raquo;</a>';
-    container.appendChild(moreWrap);
-};
 
 // Render all articles into a container (useful for articles.html)
 window.renderAllarticles = function(selector) {

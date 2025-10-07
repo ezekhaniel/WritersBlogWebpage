@@ -60,28 +60,36 @@
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const container = document.querySelector('.featured-writers');
-                if (container && window.articles && window.articles.length > 0) {
-                    // Clear existing content
+                if (container && window.articles && window.articles.length > 0 && window.getAuthor && window.latestArticle) {
                     container.innerHTML = '';
 
-                    // Add heading
-                    const heading = document.createElement('h3');
-                    heading.textContent = 'Latest Articles:';
-                    heading.style.marginBottom = '15px';
-                    container.appendChild(heading);
+                    // Latest Article
+                    const latestHeading = document.createElement('h2');
+                    latestHeading.textContent = 'Latest Article:';
+                    container.appendChild(latestHeading);
 
-                    // Function to generate slug
-                    function generateSlug(title) {
-                        return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
-                    }
+                    const latestLink = document.createElement('a');
+                    latestLink.href = 'articles.html#' + window.latestArticle.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+                    latestLink.textContent = window.latestArticle.title;
+                    container.appendChild(latestLink);
+                    container.appendChild(document.createElement('br'));
 
-                    // Generate links for all articles
+                    // Articles by author
+                    let currentAuthor = '';
                     window.articles.forEach(article => {
+                        const author = window.getAuthor(article.summary);
+                        if (author !== currentAuthor) {
+                            const banner = document.createElement('h5');
+                            banner.textContent = `Articles by ${author}`;
+                            container.appendChild(banner);
+                            currentAuthor = author;
+                        }
+
                         const link = document.createElement('a');
-                        link.href = 'articles.html#' + generateSlug(article.title);
+                        link.href = 'articles.html#' + article.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
                         link.textContent = article.title;
                         container.appendChild(link);
-                        container.appendChild(document.createElement('br')); // Add line break for separation
+                        container.appendChild(document.createElement('br'));
                     });
                 }
             });

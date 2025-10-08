@@ -60,7 +60,7 @@
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const container = document.querySelector('.featured-writers');
-                if (container && window.articles && window.articles.length > 0 && window.getAuthor && window.latestArticle) {
+                if (container && window.articles && window.articles.length > 0) {
                     container.innerHTML = '';
 
                     // Latest Article
@@ -74,22 +74,34 @@
                     container.appendChild(latestLink);
                     container.appendChild(document.createElement('br'));
 
-                    // Articles by author
-                    let currentAuthor = '';
+                    // Group articles by author
+                    const authorArticles = {};
                     window.articles.forEach(article => {
                         const author = window.getAuthor(article.summary);
-                        if (author !== currentAuthor) {
-                            const banner = document.createElement('h5');
-                            banner.textContent = `Articles by ${author}`;
-                            container.appendChild(banner);
-                            currentAuthor = author;
-                        }
+                        if (!authorArticles[author]) authorArticles[author] = [];
+                        authorArticles[author].push(article);
+                    });
 
-                        const link = document.createElement('a');
-                        link.href = 'articles.html#' + article.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
-                        link.textContent = article.title;
-                        container.appendChild(link);
-                        container.appendChild(document.createElement('br'));
+                    // Sort authors by last name
+                    const sortedAuthors = Object.keys(authorArticles).sort((a, b) => {
+                        const lastA = a.split(' ').pop();
+                        const lastB = b.split(' ').pop();
+                        return lastA.localeCompare(lastB);
+                    });
+
+                    // Articles by author, sorted
+                    sortedAuthors.forEach(author => {
+                        const banner = document.createElement('h5');
+                        banner.textContent = `Articles by ${author}`;
+                        container.appendChild(banner);
+
+                        authorArticles[author].forEach(article => {
+                            const link = document.createElement('a');
+                            link.href = 'articles.html#' + article.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+                            link.textContent = article.title;
+                            container.appendChild(link);
+                            container.appendChild(document.createElement('br'));
+                        });
                     });
                 }
             });

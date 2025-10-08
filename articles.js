@@ -60,6 +60,15 @@ const articles = [
 // expose articles so pages can access them
 window.articles = articles;
 
+// Set the latest article (assuming the first one is the most recent)
+window.latestArticle = articles[0];
+
+// Function to extract author from summary
+window.getAuthor = function(summary) {
+    const match = summary.match(/<b>By ([^<]+)<\/b>/);
+    return match ? match[1] : 'Unknown';
+};
+
 // Turn a plain-text or HTML summary into safe HTML with paragraph tags.
 function _toHtmlSummary(html) {
     if (!html) return '';
@@ -89,10 +98,33 @@ window.renderAllarticles = function(selector) {
     heading.textContent = 'Blog Articles:';
     container.appendChild(heading);
 
-    articles.forEach(item => {
-        const el = document.createElement('article');
-        el.id = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
-        el.innerHTML = `<h3>${item.title}</h3>` + _toHtmlSummary(item.summary);
-        container.appendChild(el);
+    // Group articles by author
+    const authorArticles = {};
+    articles.forEach(article => {
+        const author = window.getAuthor(article.summary);
+        if (!authorArticles[author]) authorArticles[author] = [];
+        authorArticles[author].push(article);
+    });
+
+    // Sort authors by last name
+    const sortedAuthors = Object.keys(authorArticles).sort((a, b) => {
+        const lastA = a.split(' ').pop();
+        const lastB = b.split(' ').pop();
+        return lastA.localeCompare(lastB);
+    });
+
+    // Articles by author, sorted
+    sortedAuthors.forEach(author => {
+        const banner = document.createElement('h2');
+        banner.textContent = `Articles by ${author}`;
+        banner.style.textAlign = 'center';
+        container.appendChild(banner);
+
+        authorArticles[author].forEach(item => {
+            const el = document.createElement('article');
+            el.id = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+            el.innerHTML = `<h3>${item.title}</h3>` + _toHtmlSummary(item.summary);
+            container.appendChild(el);
+        });
     });
 };

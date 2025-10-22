@@ -3,6 +3,22 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "Outlining",
+        summary: `<p><em><b>By Megan Kissling</b></em></p>
+        Outlining. Preparation…the first big hurdle to overcome when writing.
+        <br>From just a general sketch of your entire novel, beginning to end, to the tiny little details that shape your main character (mc), outlining is a big task.
+        <br>Some tend to outline everything, others only outline enough to give them an idea of what they’re doing, and some don’t outline at all. Each of these different types have been assigned their own name in the writer's world. A plotter can not seem to get anything words onto paper without first planning out every piece of their story, world and characters. A pantser doesn’t do any outlining at all and just writes whatever comes to them, when it comes to them. And then there's the plottzer, the happy medium, the one who makes a general outline to help guide them along their journey, but who doesn’t sweat when the 37 hens that the sidekick has aren’t all named.
+        <br>The more I’ve engaged with other authors the more I’ve realized that a good many of us are plottzers. We like to have a map to help us along and we like to just write when inspiration strikes. 
+        <br>The only problem after discovering that is…well…what is an outline? What does it look like? Where can I get one?
+        <br>An outline could be anything from a paragraph per chapter doc, explaining what you want to happen in each chapter in one paragraph, it could be a list of quirks you want your character to have, it could even be a map of your world with lists of each countries success’s, resources and any worldbuilding you have.
+        <br>So, here’s several different outlines, ones that I use in my writing, that you can use to help you create your own personalized map!
+        <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.0">Storyworld</a>
+        <!--<br><br><a href="https://www.example.com">Mind Maps</a>-->
+        <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.qzakkqr3c5kc">Characters</a>
+        <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.y7o798u9858n">Chapter by Chapter outline</a>
+        <!--<br><br><a href="https://www.example.com">General Sketch</a>-->`
+    },
+    {
         title: "Countering the Idea of Relativism",
         summary: `<p><em><b>By Carson Bullington</b></em></p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Introduction<br>

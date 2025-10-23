@@ -13,10 +13,10 @@ const articles = [
         <br>An outline could be anything from a paragraph per chapter doc, explaining what you want to happen in each chapter in one paragraph, it could be a list of quirks you want your character to have, it could even be a map of your world with lists of each countries success’s, resources and any worldbuilding you have.
         <br>So, here’s several different outlines, ones that I use in my writing, that you can use to help you create your own personalized map!
         <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.0">Storyworld</a>
-        <!--<br><br><a href="https://www.example.com">Mind Maps</a>-->
+        <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.odbktgvo73n7">Mind Maps</a>
         <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.qzakkqr3c5kc">Characters</a>
         <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.y7o798u9858n">Chapter by Chapter outline</a>
-        <!--<br><br><a href="https://www.example.com">General Sketch</a>-->`
+        <br><br><a href="https://docs.google.com/document/d/1WoZsyFmRgYV8UgBEgi8HM6npU_6fB6RbLW2UxSSbgwo/edit?tab=t.46d6sf6fc914">General Sketch</a>`
     },
     {
         title: "Countering the Idea of Relativism",

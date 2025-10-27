@@ -3,6 +3,46 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "Is Writing Too Hard?",
+        summary: `<p><em><b>By Justin Everling</b></em></p>
+        Have you ever wanted to become a writer?
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are those who think that writing is just for people who are oh-so-highly-talented and have such a degree of genius and inspiration that they turn out to be amazing writers. Maybe you think that. But let me tell you here: it’s a lie.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of Thomas Edison’s most famous quotes is this: “Genius is 1% inspiration and 99% perspiration.”
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That quote is very true, especially in regard to writing.  
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maybe you thought about writing once. Perhaps you even got out a pencil and paper and began to write, but gave up in disgust when you realized how completely inferior your works were to your favorite author.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But think on this. Almost no one ever starts out and writes a wonderful first book that gets a million five-star reviews and sells five books a minute for three years in a row. That just doesn’t happen. Your favorite authors that create those stories you love? They were new to the craft once. No doubt they wrote horrible stories.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the story of my writing journey.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When I was young, I always liked to write stories. Mostly short stories, designed for little kids. And frankly, they were horrible. I still have a few—such as The Lonely Cottage and Farmer Clive’s Extraordinary Lettuce—to remind me how not to write.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My first attempt at a novel came one day when I was ten. An idea lit up my mind, and I wrote and wrote. I managed to get 1,400 words down on the computer screen, a story about two kids who travel to a different world.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then something happened.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before I tell you what happened, let me ask you this: have you ever heard of something called an older brother? I certainly had. Mom asked my twenty year old brother to review my story and tell me what needed fixed. So he did. It was good, honest feedback that I needed to hear, but I was too silly and sensitive to realize it. I gave up in despair.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That ended my novel writing attempts for three long years. During that time, I wrote an occasional short article, usually about cars, perhaps once every three months.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fast forward two and a half years, and I heard about a Crazy Writing Week from our Christian news station that we listened to. It sounded interesting, so I decided to participate.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For one week I wrote like…well, like crazy, because it is called a Crazy Writing Week, right? I mostly wrote little news articles, because that was what I was interested in at the time, but I also had the idea to start a novel. So thus began my second attempt.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I wrote about 600 words before I quit. This time, it wasn’t the feedback—both Mom and my younger brother liked it. I simply lacked the motivation I needed to finish such a long project as I had planned. Also, I had no idea what I wanted for the story, no specific goals. And besides that, I kept comparing my work to other published authors and seeing how much better they were. I listened to videos about writing, but they didn’t inspire me quite enough to become a full-on serious writer.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Crazy Writing Week ended, and with it went my attempts at novel writing. This time I thought I was done for good. Poems were my forte, I would stick to them, and that was that.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So gradually I gave up. Poems went out the window; I never wrote them. The annual Crazy Writing Week rolled by again, but this time I didn’t join. I was done with writing—or so I thought.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then one April evening, inspiration hit. A real-life person, the subject of a casual conversation, was my motivation. That night ideas kept running through my head, racing around.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’m not an outliner, but that night when we got home I wrote out a short outline for my book. Just three sentences, but it was what I needed. My writing journey had begun.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But I still wasn’t a very serious writer. I only managed to fit in the time for it two or three times a week. But then I realized that if I wrote just 450 words a day, my novel would be done in six months. So that’s what I began to do, trying to reach my goal every day. Characters sprung to life, and I got more and more invested in my story.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I joined a critiquing group and got helpful feedback on my writing. Four months and nineteen days of effort—long, hard effort—later, I was done. I’d finished my own novel, at 91,000 words. Now I’m working on a second one, and I hope to finish it in even less time.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That’s the story of how I began serious writing. But I’ll have you know that it wasn’t like once I began to write seriously, everything snapped into place and my writing was perfect and wonderful and absolutely marvelous.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instead, it was terrible.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first chapter I got feedback on ended up ripped apart. It had thousands of mistakes, and they all needed fixed.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remember my first attempt at a novel? I’d gotten so upset at honest feedback that I’d just quit—for two and a half years. But here’s the thing: when you really care about your writing and are seriously into it, you are willing to improve it no matter what.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So that’s what I did. I cut parts, revised, edited, and did it all again. And my first chapter still needs work! I’m not an expert. I’ve only been writing seriously for half a year or so. I’m still not near as good as my favorite authors. But someday, with enough effort, maybe I will be.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That being said, not everyone is meant to be an author. Some people lack the inclination, others lack the skill.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But if you do have an interest in writing, then go out there and write! Attempt something. Yes, it will be horrible. Yes, you’ll make a thousand mistakes—or more. But yes, you can fix them later.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to be a serious writer, it takes effort. By now some of you are probably wondering: if writing is so hard, why bother?
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frederick Douglas once said this: “The pursuit of ease [is] death to manly courage, energy, will, and enterprise.”
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basically, struggle is what makes things worthwhile. We wouldn’t appreciate the good times in our lives if there weren’t any bad parts. We wouldn’t appreciate the light as much if there were no darkness. The list goes on and on.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So, is writing too hard? Absolutely not. Millions—yes, millions—of authors have succeeded at it. It’s not easy, but neither is gardening, or tree house building, or becoming a talented musician.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My challenge for you today, whether you are an experienced author or someone who’s never written the stories locked up inside, is this: write something, even if it’s as small as a single word. If you’re a more experienced writer, try increasing your goal, or writing every day.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If God has put a story inside of you, why resist the call? Do you lack motivation? Do you compare yourself to others too much? Do you feel that your writing is downright horrible?
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All you have to do is ignore those blocks and write.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get out there and change the world.`
+    },
+    {
         title: "Outlining",
         summary: `<p><em><b>By Megan Kissling</b></em></p>
         Outlining. Preparation…the first big hurdle to overcome when writing.

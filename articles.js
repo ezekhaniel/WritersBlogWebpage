@@ -3,6 +3,20 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "The Great Commission",
+        summary: `<p><em><b>By Simeon Aurand</b></em></p>
+        We’ve all seen it.  We know what’s happening.<br><br>
+        “And you will hear of wars and rumors of wars… For nation will rise against nation, and kingdom against kingdom, and there will be famines and earthquakes in various places… And because lawlessness will be increased, the love of many will grow cold.” (Matthew 24)<br><br>
+        We’ve all seen the evils in our world today. We all wait for Jesus to come back and right these wrongs.
+        But are we ready?
+        Are we really ready to give up everything we have?
+        Lose our technology, jobs, friends, maybe even family? All for Christ?<br><br>
+        If Jesus is coming back, we are supposed to be ready. We need to be aware, and not be led astray. Temptation is only going to increase, but we need to continue to share the Gospel with everyone!
+        This is the Great Commission: to share Jesus with everyone around us. That can be hard a lot of the time, though! Good thing we have the Holy Spirit on our side, to help us no matter the situation we find ourselves in.
+        How else can we be ready? We need to do what we’ve always done! Connect, teach, help, pray, speak, write, whatever we do best! Build community and fellowship. Strengthen each other in the faith. This is our endgame, our last moves before our time is up. They need to be the strongest they can. It’s not going to be easy.
+        But the King is coming. We need to be ready. Are you?`
+    },
+    {
         title: "Is Writing Too Hard?",
         summary: `<p><em><b>By Justin Everling</b></em></p>
         Have you ever wanted to become a writer?

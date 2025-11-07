@@ -17,7 +17,7 @@ const articles = [
         -Carson`
     },
     {
-        title: "The gospel message",
+        title: "The Gospel Message",
         summary: `<p><em><b>By Jim Vanzant</b></em></p>
         What is salvation?<br><br>
         We hear the term salvation a lot when talking about God and the church. But what does it mean to be saved?

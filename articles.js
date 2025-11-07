@@ -3,6 +3,150 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "How To Create a Villain That Inspires",
+         summary: `<p><em><b>By Carson Bullington</b></em></p>
+         We always see our villains becoming a sensation, a character that inspires, creates tension, and brings the protagonist to his ultimate glory. This may seem to be easy, but the stereotypical molds are often hard to break, and these characters often end up feeling unnatural and empty. These are important pieces that every villain needs for it to become the character that inspires those who read of them.
+        <br><br>Motive<br><br>
+        Without this your villain seems hollow, and unnatural. Give your readers a reason that both gives the character depth and an incentive. All people are pushed by a motivation, often this motivation can be emotions such as grief, anger, revenge, or enjoyment. Something more mysterious can be a compelling and powerful way to grab a reader's attention, this can be something unearthly, unknowable, and unholy . A motive makes the villain more relatable, allowing the readers to both sympathise and understand the villain, rarely is someone evil for the sake of being evil. Such an example would be Thanos from the Marvel series. Thanos believed that by destroying half of life in the universe he would save it. His reasoning and ideas came from his own planet, Titan, which did in fact die out because of overpopulation. There is no justification, however logical, in murdering trillions upon quadrillions.
+        <br><br>Emotional Depth<br><br>
+        When I say emotion, I don't just mean the usual stereotypical emotions, such as rage and happiness. Give the character sadness, hope, or frustration; only a perfect villain, one who will probably win in the end, can be without any of these. Without emotions like these, the villain will seem empty, unfinished, but with them creates a character that ends up confounding the stereotypical ideas. Thanos himself was a very unique emotional villain, in The Endgame at his defeat he seems strangely calm, accepting his defeat without rage or anger. This show of emotion not only confuses the spectator, but also creates an amazing interest in the true character behind the darkened mask.
+        <br><br>A Unique Character Dynamic<br><br>
+        Something that sets them apart-an object of interest, an idea, a philosophy that the character runs with. Amazing ideas spring into my head as I think of my antagonists. Will his mind be tainted by his past or maybe he feels he is doing the right thing.Maybe he wields an artifact of strange or powerful proportions. No matter what it is, it can make your villain unforgettable. It adds a feeling of intrigue and power to the character. Why does he have it? What is it? It grabs the reader's attention and pushes them to think about what this dynamic really means. For Thanos a powerful dynamic was his “daughters”. He saved them by his own hand, trained them himself, gave them gifts, and truly cared for them. We never learn why he did have this dynamic, but we are able to empathize and wonder. Another mental dynamic would be his belief in honor, how he never cheated to get what he wanted, and he fought his own fights, believing that this was a show of strength, and a path to glory. <br><br>
+        I wish you the best of luck on your writing journey, continue to dream of big things, and I can’t wait to one day read your amazing story.<br><br>
+        Your brother in Christ, <br><br>
+        -Carson`
+    },
+    {
+        title: "What is salvation?",
+        summary: `<p><em><b>By Justin Everling</b></em></p>
+        We hear the term salvation a lot when talking about God and the church. But what does it mean to be saved?
+        Can I know that I am saved? How many ways are there to God? It can get really confusing and might even
+        turn some people off. In this lesson we are going to look at what the Bible says about being saved and how
+        important it is to have this settled in our lives.
+        First let’s discuss what salvation is not.
+        Salvation is not simply praying a prayer.
+        Matthew 7:21 Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he
+        that doeth the will of my Father which is in heaven. 22Many will say to me in that day, Lord, Lord, have we
+        not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful
+        works? 23And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.
+        It is not just believing that God is real.
+        James 2: 19 Thou believest that there is one God; thou doest well: the devils also believe, and tremble.
+        It isn’t trying to do good or clean up your life.
+        Psalm 14: 3 They are all gone aside, they are all together become filthy: There is none that doeth good, no,
+        not one.
+        Isaiah 64: 6 But we are all as an unclean thing, and all our righteousnesses are as filthy rags; and we all do
+        fade as a leaf; and our iniquities, like the wind, have taken us away.
+        These are just some of the things that people mistakenly put in place of salvation because of a lack of
+        understanding of the Bible. Other examples of what salvation is not are baptism, joining a church, reading the
+        Bible, being a good citizen, or giving to the church.
+        At this point some people might be asking, “How then can anyone be saved?” If you are thinking this, you are
+        actually closer to the answer than you might think. To get to heart of this lesson, we have to go back, way
+        back, in fact all the way back to the beginning. We have all heard of Adam and Eve, the first people who God
+        created with own hands. God made Adam and Eve for fellowship and to have dominion over His creation and
+        to be stewards of the Earth. God loves His creation and wants to enjoy time together with us. They had this
+        kind of relationship until Adam and Eve ate the forbidden fruit of the Tree of the Knowledge of Good and Evil.
+        Before they did this one thing God told them not to do, they were innocent, like a baby or small child. After
+        they did this their eyes were opened and they understood what sin was. We find this recorded in the Bible in
+        Genisis chapters 1-3. We also find verses in the New Testament that tell us how this affected all of humanity
+        and that we are now a fallen race of sinners. Sin separates us from God.
+        Romans 5:12 Wherefore, as by one man sin entered into the world, and death by sin; and so death passed
+        upon all men, for that all have sinned:
+
+        From God’s perspective death does not mean that something stops, like we think of someone dying as the end.
+        Death means separation. We don’t see it with our eyes, but death occurs when the soul of a person separates
+        from their body. That is physical death. The soul doesn’t end, it just leaves the body we can see. There is a
+        second death that is described as our soul being separated from God. This is spiritual death. A person who
+        has not been saved can be physically alive while being spiritually dead.
+        Ephesians 2:1 And you hath he quickened, who were dead in trespasses and sins; 2wherein in time past ye
+        walked according to the course of this world, according to the prince of the power of the air, the spirit that
+        now worketh in the children of disobedience:
+        1 Timothy 5:6 But she that liveth in pleasure is dead while she liveth.
+        And this is the condition of all people. Remember there is none that is righteous, no not one. This means that
+        we can’t do anything to be able to come to God on our own. We are stuck and because of this, the sentence of
+        death and an eternity separated from God has been passed on every single person ever born, except one.
+        Because God knows everything, He knew all the way back when He was forming everything that mankind
+        would fail. God’s standard is perfection, sinless perfection. If even one single sin is committed by a person,
+        that sin has to be paid for. A person can spend an eternity separated from God, in Hell, and will never be able
+        to fully have that sin paid for.
+        Romans 6:23a tells us clearly that we earn death, physical and spiritual for our sin For the wages of sin is
+        death;
+        But God also loved us and wanted to heal our broken relationship. But since God is Holy and just, it would take
+        someone dying to pay the wages of sin, who had no sin of His own.
+        Isaiah 53:6 All we like sheep have gone astray; we have turned every one to his own way; and the LORD hath
+        laid on him the iniquity of us all.
+        Romans 5:8 But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.
+        John 3:17 For God sent not his Son into the world to condemn the world; but that the world through him
+        might be saved.
+        2 Corinthians 5:21 For he hath made him to be sin for us, who knew no sin; that we might be made the
+        righteousness of God in him.
+        1 Peter 3:18 For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God,
+        being put to death in the flesh, but quickened by the Spirit:
+        We see in many verses that Jesus took our death on Himself, physical and spiritual, on the cross. He took our
+        sins, and the punishment for those sins in order to pay the price that we could never pay. When He did this,
+        His sacrifice was accepted by the Father to forgive all sin ever committed. We can think of it this way “No one
+        could ever be good enough to get to God on their own, and no one could ever be bad enough that God doesn’t
+        love then and offer them the forgiveness of their sins.
+
+        So all of this mean that the ball is in our court. God loves you and wants to heal the broken relationship
+        between you and Him. He has done all the work that is required. What then must we do in order to ensure
+        that the healing takes place?
+
+        Repent-
+        This means simply changing your mind about yourself and your sin. Most of us think we are pretty good
+
+        people. It’s usually true that we can find many people who are way worse than we are. But those people are
+        not the standard the we will be measured by. God’s perfection is. Seeing yourself in the light of God’s
+        perfection and understanding that you are much much closer to the worst human being to ever live than you
+        are to God’s perfect law, is the first step. It requires humbling your heart before a perfectly sinless God.
+        Mark 1:14 Now after that John was put in prison, Jesus came into Galilee, preaching the gospel of the
+        kingdom of God, 15 and saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and
+        believe the gospel.
+
+        Believe-
+        Believing ON God and not IN God. You can look at an airplane at an airport and think to yourself, “I believe
+
+        that plane, pilot, and crew can get me to a place I want to go”. If you do not get on the plane, it will not take
+        you anywhere. It is having faith that Jesus’s death on the cross was for you, and He died instead of you, so that
+        you won’t have to die. The Bible is absolutely clear and leaves no question about it. Jesus provided the one
+        and only way to be saved and to come to God.
+        John 14:6 Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by
+        me.
+        Acts 4: 12 Neither is there salvation in any other: for there is none other name under heaven given among
+        men, whereby we must be saved.
+        Acts 16:31 And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.
+        Ephesians 2:8 For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:
+
+        Receive-
+        Turning from your own ways, trusting that Jesus paid the price and wants to give you eternal life, that is to say
+
+        to bring you back to God the Father through His own sacrifice, a simple prayer asking Him to come into your
+        heart and life, wash away your sin with His blood and heal your broken relationship with God the Father is all
+        you have to do. Salvation is a gift. We ask for it by faith (believing that He can and that He wants to forgive us
+        and cleanse us from our sin), turning toward God through Jesus. If we mean it, if we believe Him for it, if we
+        are seeking to know Him, He will answer that prayer every time by saving the person calling on His name.
+        1 John 1:9 If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all
+        unrighteousness.
+
+        Romans 10:9 that if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that
+        God hath raised him from the dead, thou shalt be saved.
+        Romans 10:13 For whosoever shall call upon the name of the Lord shall be saved.
+
+        You can’t hold anything back when you are asking Jesus to save you. If you think “I’ll pray this and get my life
+        straight, then I’ll be ok.” You miss the mark and are not fully trusting in Him. You must put your full trust in
+        Him that He did it all and He will do it all for you. But in repenting, you are saying that you will follow wherever
+        He leads from now on in obedience to His Word not to BE saved, but BECAUSE you are now saved.
+
+        You can do this right now, right where you are standing or sitting. It can seem like a very cheap way to have
+        such a gift. But that is the nature of a gift. It costs nothing to the one receiving it, but it costs the giver. In the
+        case of salvation, it cost God the very best Heaven had to purchase this gift. This is why it is such a terrible
+        thing to reject it.
+
+        If you prayed, repenting toward God, trusting in Jesus, and receiving the free gift of eternal life through His
+        name, a whole new life has opened up for you. There will be questions and desires you never had before. It is
+        a good idea to start writing things down somewhere you can refer to later. Let someone at the church know
+        that you have trusted Jesus. There are a lot of people who would love to help you learn about your new life going forward.`
+    },
+    {
         title: "The Great Commission",
         summary: `<p><em><b>By Simeon Aurand</b></em></p>
         We’ve all seen it.  We know what’s happening.<br><br>

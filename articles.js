@@ -17,8 +17,9 @@ const articles = [
         -Carson`
     },
     {
-        title: "What is salvation?",
-        summary: `<p><em><b>By Justin Everling</b></em></p>
+        title: "The gospel message",
+        summary: `<p><em><b>By Jim Vanzant</b></em></p>
+        What is salvation?<br><br>
         We hear the term salvation a lot when talking about God and the church. But what does it mean to be saved?
         Can I know that I am saved? How many ways are there to God? It can get really confusing and might even
         turn some people off. In this lesson we are going to look at what the Bible says about being saved and how

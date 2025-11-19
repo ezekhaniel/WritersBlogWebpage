@@ -312,17 +312,22 @@ const articles = [
     }
 ];
 
-// expose articles so pages can access them
-window.articles = articles;
-
-// Set the latest article (assuming the first one is the most recent)
-window.latestArticle = articles[0];
-
 // Function to extract author from summary
 window.getAuthor = function(summary) {
     const match = summary.match(/<b>By ([^<]+)<\/b>/);
     return match ? match[1] : 'Unknown';
 };
+
+// Add author property to each article
+articles.forEach(article => {
+    article.author = window.getAuthor(article.summary);
+});
+
+// expose articles so pages can access them
+window.articles = articles;
+
+// Set the latest article (assuming the first one is the most recent)
+window.latestArticle = articles[0];
 
 // Turn a plain-text or HTML summary into safe HTML with paragraph tags.
 function _toHtmlSummary(html) {
@@ -378,7 +383,15 @@ window.renderAllarticles = function(selector) {
         authorArticles[author].forEach(item => {
             const el = document.createElement('article');
             el.id = item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
-            el.innerHTML = `<h3>${item.title}</h3>` + _toHtmlSummary(item.summary);
+            // Create h3
+            const h3 = document.createElement('h3');
+            h3.textContent = item.title;
+            el.appendChild(h3);
+            // Full summary
+            const summaryDiv = document.createElement('div');
+            summaryDiv.className = 'summary';
+            summaryDiv.innerHTML = _toHtmlSummary(item.summary);
+            el.appendChild(summaryDiv);
             container.appendChild(el);
         });
     });

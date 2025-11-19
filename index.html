@@ -77,7 +77,7 @@
                     // Group articles by author
                     const authorArticles = {};
                     window.articles.forEach(article => {
-                        const author = window.getAuthor(article.summary);
+                        const author = article.author;
                         if (!authorArticles[author]) authorArticles[author] = [];
                         authorArticles[author].push(article);
                     });

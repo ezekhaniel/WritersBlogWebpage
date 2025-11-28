@@ -3,6 +3,65 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "The Perfect Villain—and Why No One Uses Them",
+        summary: `<p><em><b>By Carson Bullington</b></em></p>
+        The perfect villain, a largely unused idea can be an extremely successful one. They consume their prey, they cannot be defeated, and they cannot be subtracted from.
+
+        This villain is considered cosmic horror, a. A nightmare to those who defy him. They are often a "god-like" entity or a force of nature. In the movie "Puss in Boots: The Last Wish" this antagonist is death itself. Taking the form of a wolf, he is the cosmic horror that Puss attempts to evade. Death follows him, enjoying his prey's fear, knowing he will win. At the climax Puss conquers his fear of Death and fights him, even though he knows he cannot win. Once Death sees that Puss no longer fears him, he steps back, allowing Puss to live his last life. He isn't defeated; he allows Puss to win on his terms. He leaves the scene after telling Puss that he will see him again.
+
+        These terrifying characters carry so much emotional power to them. The protagonist doesn't fight to win, but to survive. These characters often represent a force of fate, an immovable darkness. When used correctly this idea can be the most powerful, emotional stories for the reader and/or viewer.
+
+        But this idea can also be written completely wrong. Stories may lose tension, because of the lack of protagonist victory. The main character's story arc may have no power since they can't end up on top at the end. The villains may be too abstract; without human traits they no longer seem relatable or emotionally satisfying.
+
+        This antagonist type is one that grants the reader new feelings. It could depress the story, make minor victories seem... useless because of their inevitable defeat. Yet the story can be amazingly captivating. The perfect villain doesn’t just challenge the hero—they challenge the reader’s expectations of victory, morality, and meaning.`
+    },
+    {
+        title: "Help Me God",
+        summary: `<p><em><b>By Addie Jones</b></em></p>The guards lined us up on one side of the prison courtyard. My heart pounded in my throat. My stomach ached from hunger. I'd been in the prison for two months. In that time they'd fed me just enough to keep me alive. Chains rattled as they took the man in the front of the line and chained him to a post in the center of the courtyard. They shoved him to his knees.
+
+            Then it began.
+
+            A door opened and I heard more chains and the shuffling of feet. A moan escaped the man chained to the post. Three people had stumbled into the courtyard, an older man, a woman about the same age as the man on his knees, and a little girl no more than five. All three of them were bound and gagged. Oh dear God please no! I prayed.
+
+            “You have been accused of believing in Christ! Deny it!” a voice boomed. I looked around, the guard with the deep voice was standing behind the Old man. I could see the chained man crying from where I stood.
+
+            “I will not,” he breathed. A shot rang out and the old man fell to the ground, dead. The woman and the girl both let out muffled whimpers. The chained man cried out and jerked forward. He tried to scramble over to the old man, but his chains prevented him. He was sobbing now, heart broken.
+
+            “Deny it!” the guard with the deep voice growled again. The chained man's shoulders were slumped. They've broken him, I thought. It was so easy for them and now he won't fight back. He won't believe if that's what it takes to save them.
+
+            “I don't believe,” he mumbled, defeated.
+
+            “Ten lashes to each of them, for this man's lies, and get that body out of here!” the guard snarled. They dragged them all away then shoved the next person forward, and chained them to the post.
+
+            I kept my eyes down, I didn't want to watch. I didn't want to watch them break person after person. I didn't want to watch as person after person denied the only thing that kept me going. God please let them all be saved so that death is no obstacle. Give me peace and confidence in you and you alone!
+
+            Person after person. The penalties always changed, denial of faith didn't mean they let you go, some still got whipped, others still lost a loved one. The only guarantee was that if you denied Christ, you would walk away. My heart broke with every shot, with every crack of the whip, with every scream, with every sob, but most of all, with every denial. They all denied Christ, they all gave in, they all broke.
+
+            Finally it was my turn. As they pushed me forward a kind of peace washed over me. Thank you God! Thank you for all your blessings for this peace and for my salvation through your son! They chained my already raw hands to the post. I tried to stay standing but one of the guards kicked the back of my knee and I crumpled my knee scraping the ground, pain shot through my leg, but I didn't make a sound. My Savior endured without a sound and so would I. God help me! I don't deserve it and I never will but please! The door opened and heartbroken I looked up. Tears streamed down my face as I watched each and every one of the people I loved most in this world walk in front of me, bound and gagged. God give me strength to withstand! Then I heard the voice.
+
+            “You have been accused of believing in Christ! Deny it!” I watched as a guard stepped up behind my mom. I met her eyes and all I saw was calm resolve.
+
+            “No.” I stated. The guard behind mom pulled the trigger. As she fell and a piece of my heart fell with her. Death is not the end. Oh please Lord help me! The guard moved behind my dad.
+
+            “Deny it!” the guard growled. Sorrow and resolution warred on my dads face.
+
+            “No.” I started again. He pulled the trigger. God I can't do this! He moved behind my brother.
+
+            “Deny it!” I looked at my brother but all I saw was fear. Absent from the body present with the Lord! Your will be done, Lord! No matter what it costs it will be worth it.
+
+            “No.” I whispered. Then my brother was gone too. Please give me strength! He moved behind my best friend. She stared back at me, her eyes full of fear, but she nodded at me.
+
+            “Deny it!” the guard shouted.
+
+            “No.” I repeated, and she was gone too. Then the guard stepped behind the last person in line. He'd been there for me so many times. He had held me while I cried. He had made me laugh a thousand times. He'd been there for me when I was alone. I locked eyes with him. God please! Tears rolled down my face as the guard ordered me to deny my faith. God help me! You are my rock and my redeemer.
+
+            “No.” I whispered again. Then he fell to the ground, dead. I closed my eyes, and sobbed, my heart had shattered into a thousand tiny pieces, that only God could mend. God give me peace! Give me strength! I felt the cold barrel of a gun press against my temple.
+
+            “Deny it!” The guard shouted in my ear. At that moment an overwhelming sense of peace crashed over me. Thank you God! Forgive them for they know not what they do!
+
+            “No.” I breathed. Then the world went white.`
+    },
+    {
         title: "How To Create a Villain That Inspires",
          summary: `<p><em><b>By Carson Bullington</b></em></p>
          We always see our villains becoming a sensation, a character that inspires, creates tension, and brings the protagonist to his ultimate glory. This may seem to be easy, but the stereotypical molds are often hard to break, and these characters often end up feeling unnatural and empty. These are important pieces that every villain needs for it to become the character that inspires those who read of them.

@@ -38,6 +38,15 @@
         if (window.renderAllarticles) {
             window.renderAllarticles('.articles-list');
         }
+        // Scroll to the article if there's a hash in the URL after a short delay to ensure DOM is ready
+        setTimeout(() => {
+            if (window.location.hash) {
+                const element = document.querySelector(window.location.hash);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        }, 100);
     </script>
 </body>
 </html>

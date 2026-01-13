@@ -3,6 +3,25 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "Finding Strength in Distractions",
+        summary: `<p><em><b>By Sarah J. Sobie</b></em></p>
+        Have you ever felt distracted from something you were really excited about?<br>
+        Recently, I was on a call with my writing partner. We had a really great time talking together and I got off the call super motivated. Afterwards, I went to my journal and started writing down the ideas we talked about and how I could bring them to life. Ready to set new goals and implement them, I was extremely pumped to get started and to see where this would lead me!<br>
+        Then this little voice inside my head says, “You should go watch some YouTube videos”.<br>
+        That one sentence stopped me in my tracks. I was shocked that in my highest moment of excitement and motivation, I wanted to waste time watching videos. Scrolling for hours has been something I have struggled with for years. But usually that urge comes when I want to procrastinate or don’t feel like doing something. Now, it was intruding into my thoughts when I was super motivated…why?<br>
+        A thought came to me that I’m sure was the Holy Spirit whispering to my heart.<br>
+        “It’s Satan.”<br>
+        The thought confused me at first, but as I reflected on how I was feeling, it started to make more sense. The plans I had been making included organizing my day so I could study the Bible more, start mentoring someone, teaching middle-schoolers about what I’m passionate about, run workshops and teachings, all of which I could not do on my own. I wrote a prayer asking God to strengthen me and help me because these things were impossible unless He helped me. And that is when the enemy decided to strike.<br>
+        It makes sense! Why wouldn’t Satan try to distract me from doing good things? I realized he must feel threatened whenever I’m about to do something big. Jeremiah 29:11 says God knows the plans He has for you. God has a plan for each of our lives and He will work in you and through you to fulfill His good purposes (Philippians 2:13) and Satan knows this!<br>
+        Even if you can’t see it, the enemy recognizes the potential in you and sees you as a threat to his evil schemes. Of course he’s going to try to bring you down and discourage you! He knows that if he doesn’t do anything to try to stop you when you’re feeling motivated about something, God is going to do amazing things through you, and he doesn’t want that. <br>
+        Procrastination and distraction have taken on a whole new meaning for me. I have realized that maybe it’s a good thing when procrastination tugs at me because that means the devil feels threatened. Satan knows God will do amazing things through you if you keep doing what you’re doing, so he’s going to do anything in his power to stop you. He sees the potential, the excitement, and the motivation oozing out of you. It makes him afraid to see you so worked up about something.<br>
+        Luckily for us, we have a best friend who is way more powerful than any scheme Satan can ever try to pull. In one of my favourite songs, the lyrics are, “there’s power in the presence, power in the blood, power in the name of Jesus”. The devil has no power over us because Jesus has all the power! At the mention of Jesus’ name, the devil has to flee. There is so much power in that one name and Jesus wants us to use the power of His name for overcoming any distractions Satan throws at us.<br>
+        Instead of seeing procrastination as a bad thing, start seeing the distractions as a sign that you are doing things that are threatening the devil. It means you’re on the right path! God is going to use you for His amazing plans and He wants to help you when you’re struggling. The world will try to distract you but keep your eyes fixed on Jesus and He will strengthen you and lead you into the wonderful plan He has for your life. To rephrase a famous quote by Corrie ten Boom, she says, “If the enemy can't destroy you, he will distract you into wasting your life.” Push through the distractions and into your marvelous purpose and God will glorify Himself through you. <br>
+
+        Sarah J. Sobie<br>
+        `
+    },
+    {
         title: "The Perfect Villain—and Why No One Uses Them",
         summary: `<p><em><b>By Carson Bullington</b></em></p>
         The perfect villain, a largely unused idea can be an extremely successful one. They consume their prey, they cannot be defeated, and they cannot be subtracted from.

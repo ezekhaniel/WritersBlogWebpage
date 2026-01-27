@@ -3,6 +3,29 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "<em>Fighting the Devil’s Lies</em>",
+        summary: `<p><em><b>By Serenity F. Helzerman</b></em></p>
+        <p><em>“But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light:”</em></p>
+        <p>-1 Peter 2:9 (KJV)</p>
+        <p>Do you ever feel kind of lost? Down in the depths where fear and doubt creep in, whispers plague your mind:</p>
+        <p>“You’re worthless.”</p>
+        <p>“Nobody really loves you. You’re so stupid and weird.”</p>
+        <p>Maybe it’s not as noticeable as that. Maybe it’s just a continuous question pounding in your head: “How could anybody love me?”</p>
+        <p>You have all these faults and quirky personality traits. You don’t believe someone could ever love you for you. You want assurance of their love without you prompting them first.</p>
+        <p>Well. I can tell you right now, <em>you’re not alone</em>.</p>
+        <p>But it’s unhealthy and discouraging to listen to those lies, even if they're so tempting to believe. You let it drag you down so deep your own thoughts begin to scare you.</p>
+        <p>That’s where scripture comes in. Those lies are not going to just go away — because this is a constant battle and the devil doesn’t want you to believe the truth. But knowing these scriptures and quoting them and reminding yourself of who you are—a child of God—is the number one step to conquering the hideous giant, deceit.</p>
+        <p><em>“But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty;”</em></p>
+        <p>-1 Corinthians 1:27 (KJV)</p>
+        <p>Who you are isn’t measured by where you come from, the mistakes you’ve made, or the friends you have — it’s only by Jesus Christ we are anything at all.</p>
+        <p>The devil may say, “Who do you think you are? You’re no one. Nobody cares about you.”</p>
+        <p>“I’m a nobody alright—but I am still loved because my Saviour is the King of all kings and I’ve been adopted into His royal family! I’m not worthy—He is. It’s an honor to serve the King who gave His life for me.”</p>
+        <p><em>“Hearken, my beloved brethren, Hath not God chosen the poor of this world rich in faith, and heirs of the kingdom which he hath promised to them that love him?”</em></p>
+        <p>-James 2:5 (KJV)</p>
+        <p>You’re not worthless. You are chosen. You are loved. You’re redeemed. You have the Light of Christ in your soul. Let it shine. Remember the words of Jesus and let them be your shield against the lies of the Devil. You’re weak, but Jesus is strong. Let Him work inside you.</p>
+        <p>- Serenity F. Helzerman</p>`
+    },
+    {
         title: "Finding Strength in Distractions",
         summary: `<p><em><b>By Sarah J. Sobie</b></em></p>
         Have you ever felt distracted from something you were really excited about?<br>

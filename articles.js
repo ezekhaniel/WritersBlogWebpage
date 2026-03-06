@@ -302,7 +302,7 @@ const articles = [
     },
     {
         title: "The Great Commission",
-        summary: `<p><em><b>By Simeon Aurand</b></em></p>
+        summary: `<p><em><b>By Martin Sword</b></em></p>
         We’ve all seen it.  We know what’s happening.<br><br>
         “And you will hear of wars and rumors of wars… For nation will rise against nation, and kingdom against kingdom, and there will be famines and earthquakes in various places… And because lawlessness will be increased, the love of many will grow cold.” (Matthew 24)<br><br>
         We’ve all seen the evils in our world today. We all wait for Jesus to come back and right these wrongs.

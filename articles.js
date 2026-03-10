@@ -3,6 +3,32 @@
 // can pull content dynamically.
 const articles = [
     {
+        title: "Perdonar",
+        summary: `<p><em><b>By Martin Sword</b></em></p>
+        <p>Maria Flores drove down the noisy, dirty street, kept at bay by the comfortable leather seats and cool air flowing from the vents of her shiny car. A rare smile covered Flores' face. Her company had just struck a very important deal.</p>
+        <p>Stopped at the light, Flores glanced at a homeless man on the corner of 11th and Perdonar Avenue. After sitting for a moment, she decided she could be generous with what she had worked for and pulled a twenty-dollar bill out of her wallet. She handed it through the window to the man as the impatient drivers behind her honked. Her guilt eased as she drove back to her condo to look over the contract.</p>
+        <p>The man on the corner stood, looking at Andrew Jackson in his hand. His graying brown hair flew around in the wind. His filthy clothes clung to his tanned olive skin. At least the money was another meal, he thought sadly, but what he really needed was a job. The man stood, thinking about his life. He was in a cycle of self-pity, but as he looked at the money that a complete stranger had given him, he decided he could help himself, too. He decided to pull himself out of the hole.</p>
+        <p>The next day, the man walked up to Lakeside Construction. It was a menacing building, towering above him. The architecture was simple but sleek. The parking lot was somehow more impressive, filled with expensive cars and powerful machines. He felt out of place, walking in with his old jeans and resumé in a cheap folder.</p>
+        <p>The receptionist glanced up at him as he walked through the automatic doors. "Yes?"</p>
+        <p>"I'm… uh…looking for a job. Please," he said, remembering his manners. The woman stared at him for a moment, then motions to a bench against the wall.</p>
+        <p>"Have a seat," she said. "I'll see if I can get you in, but we're very busy. Most people make an appointment." The receptionist glanced disapprovingly at the man's dusty pants. She knew she certainly wouldn't hire him, but it wasn't her choice.</p>
+        <p>The man felt suddenly self-conscious, trying to wipe the dust off his pants before he sat down. There was nothing to do but sit and think.</p>
+        <p>After thirty minutes of sitting on the torturous bench under her judging gaze, the receptionist called out, "Our executive will see you now."</p>
+        <p>She made no motion to stand up and show him the way, so the man glanced around and walked to the elevator. He made sure he still had his folder, then looked at the glowing buttons. There were six floors and two basements. After a moment's hesitation, he pressed the button for the top floor.</p>
+        <p>The man exited the elevator and was amazed at the view. He wasn't sure he'd ever been so high up. The sun glinted off the lake, barely hindered by the glass. A breeze gently rustled the trees. If this went well, the man realized, he could be putting this glass in, he could be erecting these glorious monuments.</p>
+        <p>Swallowing his nerves, the man turned from the view to read the nameplate next to the door. His heart nearly stopped.</p>
+        <p>Maria Flores</p>
+        <p>President</p>
+        <p>The nerves he had been fighting rushed back, and he considered turning around and leaving this arrogant tower. No, he thought, he had come this far. Perhaps it was just a coincidence. Struggling to control his breath, the man knocked once on the door.</p>
+        <p>A muffled "Come in!" echoed from inside. The man hesitantly pushed the door open and stepped inside. He cringed as it slammed behind him. The woman inside was young, maybe in her late twenties. She wore an elegant business suit and had a no-nonsense face. She gestured to the chair, not lazily as the receptionist had, but like a hawk, scanning him, making mental notes on everything she saw.</p>
+        <p>The man fiddled with the folder as he sat in the chair, notably smaller than the woman's.</p>
+        <p>She looked at the man, recognizing him as the one she had just given the money to. She wondered what it meant. It couldn't be a coincidence. "What's your name?" she asked, reaching for the folder.</p>
+        <p>"Carlos Flores," the man said, looking into her eyes, trying to hide his fear.</p>
+        <p>The woman's demeanor changed immediately. "Sal de aquí! Get out!" the woman shouted, pointing at the door. She tossed the folder at him and stood to her full height. "Go!" she shouted at a scrambling Carlos. As he let the door slam behind him, she sat heavily back in her chair. After all these years, why did her father show up in her life again? Why must he always torture her?</p>
+        <p>On the drive back, Flores was careful to avoid Perdonar Avenue, instead taking the scenic route along the lake. Her mind was elsewhere, however, on Carlos' face, and what he had done. When she got home, Flores felt more like drinking coffee and doing a crossword puzzle than working on anything else. She was supposed to go over some blueprints and make sure they matched with the client's specifications, but she had too much on her mind.</p>
+        <p>When she woke up, everything seemed okay. It might as well have been a dream. Maria Flores was not tormented by the past. She couldn't be.</p>`
+    },
+    {
         title: "You Can Make a Difference",
         summary: `<p><em><b>By Serenity F. Helzerman</b></em></p>
         <p>1 Timothy 4:12</p>
@@ -462,6 +488,32 @@ const articles = [
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So there you are! A brief overview of the writing process! How do you feel? Excited? Slightly hesitant? Hopefully it's the former. I”ll be diving deeper into each step soon so stick around to get more info! Thanks for reading!
                 <br><br>-Megan 🖊️ 🎶 💣😇
                 </p>`
+    },
+    {
+        title: "11th and Perdonar",
+        summary: `<p><em><b>By Martin Sword</b></em></p>
+        <p>Maria Flores drove down the noisy, dirty street, kept at bay by the comfortable leather seats and cool air flowing from the vents of her shiny car. A rare smile covered Flores' face. Her company had just struck a very important deal.</p>
+        <p>Stopped at the light, Flores glanced at a homeless man on the corner of 11th and Perdonar Avenue. After sitting for a moment, she decided she could be generous with what she had worked for and pulled a twenty-dollar bill out of her wallet. She handed it through the window to the man as the impatient drivers behind her honked. Her guilt eased as she drove back to her condo to look over the contract.</p>
+        <p>The man on the corner stood, looking at Andrew Jackson in his hand. His graying brown hair flew around in the wind. His filthy clothes clung to his tanned olive skin. At least the money was another meal, he thought sadly, but what he really needed was a job. The man stood, thinking about his life. He was in a cycle of self-pity, but as he looked at the money that a complete stranger had given him, he decided he could help himself, too. He decided to pull himself out of the hole.</p>
+        <p>The next day, the man walked up to Lakeside Construction. It was a menacing building, towering above him. The architecture was simple but sleek. The parking lot was somehow more impressive, filled with expensive cars and powerful machines. He felt out of place, walking in with his old jeans and resumé in a cheap folder.</p>
+        <p>The receptionist glanced up at him as he walked through the automatic doors. "Yes?"</p>
+        <p>"I'm… uh…looking for a job. Please," he said, remembering his manners. The woman stared at him for a moment, then motioned to a bench against the wall.</p>
+        <p>"Have a seat," she said. "I'll see if I can get you in, but we're very busy. Most people make an appointment." The receptionist glanced disapprovingly at the man's dusty pants. She knew she certainly wouldn't hire him, but it wasn't her choice.</p>
+        <p>The man felt suddenly self-conscious, trying to wipe the dust off his pants before he sat down. There was nothing to do but sit and think.</p>
+        <p>After thirty minutes of sitting on the torturous bench under her judging gaze, the receptionist called out, "Our executive will see you now."</p>
+        <p>She made no motion to stand up and show him the way, so the man glanced around and walked to the elevator. He made sure he still had his folder, then looked at the glowing buttons. There were six floors and two basements. After a moment's hesitation, he pressed the button for the top floor.</p>
+        <p>The man exited the elevator and was amazed at the view. He wasn't sure he'd ever been so high up. The sun glinted off the lake, barely hindered by the glass. A breeze gently rustled the trees. If this went well, the man realized, he could be putting this glass in, he could be erecting these glorious monuments.</p>
+        <p>Swallowing his nerves, the man turned from the view to read the nameplate next to the door. His heart nearly stopped.</p>
+        <p>Maria Flores</p>
+        <p>President</p>
+        <p>The nerves he had been fighting rushed back, and he considered turning around and leaving this arrogant tower. No, he thought, he had come this far. Perhaps it was just a coincidence. Struggling to control his breath, the man knocked once on the door.</p>
+        <p>A muffled "Come in!" echoed from inside. The man hesitantly pushed the door open and stepped inside. He cringed as it slammed behind him. The woman inside was young, maybe in her late twenties. She wore an elegant business suit and had a no-nonsense face. She gestured to the chair, not lazily as the receptionist had, but like a hawk, scanning him, making mental notes on everything she saw.</p>
+        <p>The man fiddled with the folder as he sat in the chair, notably smaller than the woman's.</p>
+        <p>She looked at the man, recognizing him as the one she had just given the money to. She wondered what it meant. It couldn't be a coincidence. "What's your name?" she asked, reaching for the folder.</p>
+        <p>"Carlos Flores," the man said, looking into her eyes, trying to hide his fear.</p>
+        <p>The woman's demeanor changed immediately. "Sal de aquí! Get out!" the woman shouted, pointing at the door. She tossed the folder at him and stood to her full height. "Go!" she shouted at a scrambling Carlos. As he let the door slam behind him, she sat heavily back in her chair. After all these years, why did her father show up in her life again? Why must he always torture her?</p>
+        <p>On the drive back, Flores was careful to avoid Perdonar Avenue, instead taking the scenic route along the lake. Her mind was elsewhere, however, on Carlos' face, and what he had done. When she got home, Flores felt more like drinking coffee and doing a crossword puzzle than working on anything else. She was supposed to go over some blueprints and make sure they matched with the client's specifications, but she had too much on her mind.</p>
+        <p>When she woke up, everything seemed okay. It might as well have been a dream. Maria Flores was not tormented by the past. She couldn't be.</p>`
     }
 ];
 
